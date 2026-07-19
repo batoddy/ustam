@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.Ustam" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
