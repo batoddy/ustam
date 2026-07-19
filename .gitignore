@@ -1,0 +1,26 @@
+# Eski Django web projesi ve venv — bu repoya dahil değil (donduruldu)
+/web/
+venv
+
+# Android / Gradle
+android/.gradle/
+android/build/
+android/*/build/
+android/local.properties
+android/.idea/
+*.iml
+android/captures/
+android/.cxx/
+
+# Backend (Ktor/Gradle)
+backend/.gradle/
+backend/build/
+backend/*/build/
+*.db
+*.sqlite3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/

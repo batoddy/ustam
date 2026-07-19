@@ -1,0 +1,290 @@
+{
+  "categories": [
+    {
+      "id": "elektrik",
+      "label": "Elektrikçi",
+      "icon_bg": "#FFF3E0",
+      "icon_color": "#E8622A",
+      "icon": "zap",
+      "tagline": "Sigorta, aydınlatma, priz ve kablo işleri",
+      "pro_count": "540+",
+      "popular": true,
+      "subs": [
+        {
+          "label": "Sigorta & Pano",
+          "services": [
+            "Sigorta değişimi",
+            "Pano bakımı",
+            "Kaçak akım rölesi",
+            "Faz kontrolü"
+          ]
+        },
+        {
+          "label": "Aydınlatma",
+          "services": [
+            "Avize montajı",
+            "Spot aydınlatma",
+            "Led şerit montajı",
+            "Aydınlatma arızası"
+          ]
+        },
+        {
+          "label": "Priz & Anahtar",
+          "services": [
+            "Priz değişimi",
+            "Anahtar değişimi",
+            "Yeni priz tesisatı",
+            "USB priz montajı"
+          ]
+        },
+        {
+          "label": "Kablo & Tesisat",
+          "services": [
+            "Kablo çekimi",
+            "Tesisat yenileme",
+            "Topraklama",
+            "Kısa devre tespiti"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tesisat",
+      "label": "Tesisatçı",
+      "icon_bg": "#E3F2FD",
+      "icon_color": "#2563EB",
+      "icon": "wrench",
+      "tagline": "Musluk, batarya, kombi ve su kaçağı",
+      "pro_count": "610+",
+      "popular": true,
+      "subs": [
+        {
+          "label": "Musluk & Batarya",
+          "services": [
+            "Musluk değişimi",
+            "Batarya tamiri",
+            "Damlayan musluk",
+            "Yeni batarya montajı"
+          ]
+        },
+        {
+          "label": "Banyo Tesisatı",
+          "services": [
+            "Klozet tamiri",
+            "Rezervuar arızası",
+            "Gider tıkanıklığı",
+            "Banyo tesisatı yenileme"
+          ]
+        },
+        {
+          "label": "Kombi & Isıtma",
+          "services": [
+            "Kombi bakımı",
+            "Kombi arızası",
+            "Petek tesisatı",
+            "Isıtma sistemi kontrolü"
+          ]
+        },
+        {
+          "label": "Su Kaçağı",
+          "services": [
+            "Duvar içi kaçak",
+            "Tavan kaçağı",
+            "Gizli su kaçağı tespiti",
+            "Acil su kaçağı"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boya",
+      "label": "Boyacı",
+      "icon_bg": "#F3E5F5",
+      "icon_color": "#7B1FA2",
+      "icon": "paint",
+      "tagline": "İç mekan, dış cephe ve dekoratif boya",
+      "pro_count": "380+",
+      "popular": false,
+      "subs": [
+        {
+          "label": "İç Mekan Boya",
+          "services": [
+            "Salon boyama",
+            "Yatak odası boyama",
+            "Tavan boyama",
+            "Tüm ev boyama"
+          ]
+        },
+        {
+          "label": "Dış Cephe",
+          "services": [
+            "Cephe boyama",
+            "Cephe mantolama boyası",
+            "Balkon boyama",
+            "Dış kapı boyama"
+          ]
+        },
+        {
+          "label": "Alçı & Sıva",
+          "services": [
+            "Alçıpan tamiri",
+            "Sıva onarımı",
+            "Duvar düzeltme",
+            "Tavan alçı işleri"
+          ]
+        },
+        {
+          "label": "Dekoratif",
+          "services": [
+            "Dekoratif duvar kaplama",
+            "Duvar kağıdı",
+            "Efekt boya",
+            "3D duvar paneli"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "marangoz",
+      "label": "Marangoz",
+      "icon_bg": "#FFF8E1",
+      "icon_color": "#F57F17",
+      "icon": "hammer",
+      "tagline": "Mutfak dolabı, kapı, parke ve mobilya",
+      "pro_count": "290+",
+      "popular": false,
+      "subs": [
+        {
+          "label": "Mutfak Dolabı",
+          "services": [
+            "Dolap montajı",
+            "Dolap tamiri",
+            "Tezgah değişimi",
+            "Çekmece mekanizması"
+          ]
+        },
+        {
+          "label": "Kapı & Pencere",
+          "services": [
+            "Kapı montajı",
+            "Pencere tamiri",
+            "Menteşe değişimi",
+            "Kilit değişimi"
+          ]
+        },
+        {
+          "label": "Parke & Zemin",
+          "services": [
+            "Parke döşeme",
+            "Parke tamiri",
+            "Laminat döşeme",
+            "Zemin onarımı"
+          ]
+        },
+        {
+          "label": "Mobilya Tamiri",
+          "services": [
+            "Mobilya montajı",
+            "Mobilya tamiri",
+            "Gardırop tamiri",
+            "Sandalye/masa onarımı"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "temizlik",
+      "label": "Temizlik",
+      "icon_bg": "#E8F5E9",
+      "icon_color": "#2D7D5A",
+      "icon": "sparkles",
+      "tagline": "Genel ve özel temizlik hizmetleri",
+      "pro_count": "720+",
+      "popular": true,
+      "subs": [
+        {
+          "label": "Genel Temizlik",
+          "services": [
+            "Ev temizliği",
+            "Ofis temizliği",
+            "Haftalık temizlik",
+            "Taşınma sonrası temizlik"
+          ]
+        },
+        {
+          "label": "Özel Temizlik",
+          "services": [
+            "İnşaat sonrası temizlik",
+            "Halı yıkama",
+            "Koltuk yıkama",
+            "Cam temizliği"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nakliye",
+      "label": "Nakliyat",
+      "icon_bg": "#E3F2FD",
+      "icon_color": "#1565C0",
+      "icon": "truck",
+      "tagline": "Ev ve parça eşya taşımacılığı",
+      "pro_count": "410+",
+      "popular": false,
+      "subs": [
+        {
+          "label": "Ev Taşıma",
+          "services": [
+            "Evden eve nakliyat",
+            "Şehirler arası nakliyat",
+            "Asansörlü taşıma",
+            "Eşya paketleme"
+          ]
+        },
+        {
+          "label": "Parça Taşıma",
+          "services": [
+            "Tekli eşya taşıma",
+            "Beyaz eşya taşıma",
+            "Piyano taşıma",
+            "Ofis eşyası taşıma"
+          ]
+        }
+      ]
+    }
+  ],
+  "popular_services": [
+    {
+      "emoji": "💧",
+      "label": "Su kaçağı"
+    },
+    {
+      "emoji": "⚡",
+      "label": "Sigorta atması"
+    },
+    {
+      "emoji": "🔥",
+      "label": "Kombi servisi"
+    },
+    {
+      "emoji": "🎨",
+      "label": "Oda boyama"
+    },
+    {
+      "emoji": "🪚",
+      "label": "Mutfak dolabı"
+    },
+    {
+      "emoji": "🧽",
+      "label": "Taşınma temizliği"
+    },
+    {
+      "emoji": "📦",
+      "label": "Ev taşıma"
+    },
+    {
+      "emoji": "💡",
+      "label": "Avize montajı"
+    }
+  ]
+}
