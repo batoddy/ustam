@@ -91,7 +91,7 @@ fun Route.addressRoutes() {
                 val target = Addresses.selectAll().where { (Addresses.id eq addressId) and (Addresses.userId eq userId) }.firstOrNull()
                     ?: throw NoSuchElementException("Address not found")
                 val wasDefault = target[Addresses.isDefault]
-                Addresses.deleteWhere { Addresses.id eq addressId }
+                Addresses.deleteWhere { Op.build { Addresses.id eq addressId } }
                 if (wasDefault) {
                     val next = Addresses.selectAll().where { Addresses.userId eq userId }
                         .orderBy(Addresses.createdAt to SortOrder.DESC)

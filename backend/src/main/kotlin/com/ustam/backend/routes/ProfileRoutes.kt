@@ -76,7 +76,7 @@ fun Route.profileRoutes() {
 
     delete("/me") {
         val id = call.userId()
-        transaction { Users.deleteWhere { Users.id eq id } }
+        transaction { Users.deleteWhere { Op.build { Users.id eq id } } }
         call.respond(HttpStatusCode.NoContent)
     }
 }

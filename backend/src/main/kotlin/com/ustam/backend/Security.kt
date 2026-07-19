@@ -3,7 +3,7 @@ package com.ustam.backend
 import at.favre.lib.crypto.bcrypt.BCrypt
 import com.auth0.jwt.JWT
 import com.auth0.jwt.algorithms.Algorithm
-import io.ktor.server.auth.jwt.*
+import com.auth0.jwt.interfaces.JWTVerifier
 import java.util.Date
 
 object JwtConfig {
